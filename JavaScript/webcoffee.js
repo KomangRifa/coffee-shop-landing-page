@@ -16,7 +16,7 @@ document.addEventListener("click", function (e) {
   }
 });
 
-// ====== Animasi Saat Discroll ======
+// Animasi Saat Discroll 
 const revealElements = document.querySelectorAll(".reveal");
 
 const revealObserver = new IntersectionObserver(
