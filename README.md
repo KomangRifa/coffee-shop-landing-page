@@ -1,22 +1,26 @@
-# RifaCoffeeShop. ☕
+# ☕ RifaCoffeeShop
 
-Coffee shop landing page project built using HTML, CSS, and JavaScript.
+A modern coffee shop landing page built using HTML, CSS, and JavaScript. This project features a responsive design, interactive user interface, smooth navigation, and scroll-based animations to enhance the user experience.
 
-## Features
+## 🚀 Features
 
 - Responsive Design
 - Mobile Hamburger Menu
 - Smooth Scrolling Navigation
-- Interactive UI
+- Interactive User Interface
 - Coffee Menu Section
 - Contact Section
+- Scroll Reveal Animation
+- Modern Landing Page Layout
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla JS)
 
-## Author
+## 👨‍💻 Author
 
-Komang Rifa
+**Komang Rifa**
+
+GitHub: https://github.com/KomangRifa
