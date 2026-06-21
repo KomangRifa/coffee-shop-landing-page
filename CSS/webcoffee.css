@@ -13,8 +13,20 @@
   text-decoration: none;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;              
 }
 
 body {
@@ -261,6 +273,15 @@ body {
 .menu h2 {
   animation: fadeInUp 0.8s ease both;
 }
+
+.menu-our .menu-card img {
+  transition: transform 0.3s ease;
+}
+
+.menu-our .menu-card img:hover {
+  transform: scale(1.1);
+}
+
 
 /* Kontak */
 .kontak {
