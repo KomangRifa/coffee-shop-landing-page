@@ -15,3 +15,23 @@ document.addEventListener("click", function (e) {
     navMenu.classList.remove("active");
   }
 });
+
+// ====== Animasi Saat Discroll ======
+const revealElements = document.querySelectorAll(".reveal");
+
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in-view");
+      } else {
+        entry.target.classList.remove("in-view");
+      }
+    });
+  },
+  {
+    threshold: 0.15,
+  }
+);
+
+revealElements.forEach((el) => revealObserver.observe(el));
